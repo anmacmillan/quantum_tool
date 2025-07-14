@@ -5,5 +5,4 @@ scipy
 plotly
 kaleido
 Pillow
-chromium-browser
 

@@ -128,6 +128,20 @@ def create_export_image(stats_data, chart_fig):
 
 # --- 3. STREAMLIT UI AND SIMULATION LOGIC ---
 st.title("⚖️ Employment & PI Quantum: Monte Carlo Analysis Tool")
+
+# --- LEGAL DISCLAIMER ---
+st.warning(
+    """
+    **For Educational & Illustrative Purposes Only**
+
+    - **This is not legal advice.** The output is a statistical estimation based on the variables you input. It is not a substitute for a formal opinion from a qualified barrister or solicitor on the specific facts of a case.
+    - Use of this tool **does not create a barrister-client relationship**.
+    - The figures generated are for informational purposes only and **should not be relied upon** for making any legal, financial, or strategic decisions.
+    - The accuracy of the output is entirely dependent on the assumptions and data entered. No warranty is given as to its accuracy.
+    - **No liability is accepted** for any loss or damage arising from the use of this tool. For professional advice, please seek a formal opinion.
+    """
+)
+
 st.markdown("---")
 
 # --- SIDEBAR FOR USER INPUTS ---

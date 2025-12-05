@@ -8,7 +8,7 @@ import io
 from PIL import Image, ImageDraw, ImageFont
 
 # --- 1. CONFIGURATION AND STYLING ---
-st.set_page_config(layout="wide", page_title="Quantum Risk Analysis")
+st.set_page_config(layout="wide", page_title="Quantum Risk Analysis", initial_sidebar_state="expanded")
 
 # Hide Streamlit elements to look like a native website tool
 st.markdown("""

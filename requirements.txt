@@ -3,6 +3,5 @@ pandas
 numpy
 scipy
 plotly
-kaleido
 Pillow
-
+kaleido
